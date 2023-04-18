@@ -1,25 +1,25 @@
-package model;
-
+package src.model;
 
 /**
  * @author francoise.perrin
  * 
- * Cette interface défini le comportement attendu 
- * des jeux de plateaux
+ *         Cette interface défini le comportement attendu
+ *         des jeux de plateaux
  *
  */
-public interface BoardGames {	
+public interface BoardGames {
 
 	/**
-	 * Permet de deplacer une piece connaissant ses coordonnees initiales 
-	 * vers ses coordonnees finales 	 *  
+	 * Permet de deplacer une piece connaissant ses coordonnees initiales
+	 * vers ses coordonnees finales *
+	 * 
 	 * @param xInit
 	 * @param yInit
 	 * @param xFinal
 	 * @param yFinal
-	 * @return OK si deplacement OK	 
+	 * @return OK si deplacement OK
 	 */
-	public boolean move (int xInit, int yInit, int xFinal, int yFinal); 
+	public boolean move(int xInit, int yInit, int xFinal, int yFinal);
 
 	/**
 	 * @return true si c'est la fin du jeu
@@ -35,12 +35,12 @@ public interface BoardGames {
 	 * @return la couleur du jouer courant
 	 */
 	public Couleur getColorCurrentPlayer();
-	
+
 	/**
 	 * @param x
 	 * @param y
 	 * @return la couleur de la pièce sélectionnée
 	 */
 	public Couleur getPieceColor(int x, int y);
- 
+
 }
