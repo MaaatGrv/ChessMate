@@ -6,5 +6,9 @@
         "jdk.*",
         "org.graalvm.*",
         "io.micrometer.shaded.*"
+    ],
+    "java.project.sourcePaths": [
+        "Project",
+        "projet"
     ]
 }
