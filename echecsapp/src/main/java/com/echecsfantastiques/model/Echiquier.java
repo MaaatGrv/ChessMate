@@ -33,4 +33,7 @@ public class Echiquier {
         return null;
     }
 
+    public Object getPiece(int xFinal, int yFinal) {
+        return null;
+    }
 }

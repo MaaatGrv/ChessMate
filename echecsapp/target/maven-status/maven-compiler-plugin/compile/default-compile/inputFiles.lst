@@ -9,7 +9,7 @@
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/utils/Coord.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/utils/Introspection.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/utils/ChessSinglePieceFactory.java
-/Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/model/pieces/Pieces.java
+/Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/model/pieces/Piece.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/App.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/model/pieces/Roi.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/views/LauncherGUI.java
@@ -17,11 +17,13 @@
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/controllers/ChessGameControlers.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/model/pieces/Pion.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/utils/ChessPiecesFactory.java
+/Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/model/Pieces.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/views/ChessPieceImage.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/model/pieces/Fou.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/controllers/ChessGameCmdLine.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/model/pieces/Reine.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/model/pieces/Tour.java
+/Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/model/AbstractPiece.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/utils/ChessGame.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/utils/BoardGames.java
 /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/src/main/java/com/echecsfantastiques/model/Jeu.java

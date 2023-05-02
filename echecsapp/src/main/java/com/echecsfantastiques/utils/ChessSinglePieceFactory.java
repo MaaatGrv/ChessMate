@@ -1,7 +1,7 @@
 package com.echecsfantastiques.utils;
 
 import com.echecsfantastiques.model.Couleur;
-import com.echecsfantastiques.model.pieces.Pieces;
+import com.echecsfantastiques.model.Pieces;
 
 /**
  * @author francoise.perrin

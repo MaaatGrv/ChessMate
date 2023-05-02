@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 import com.echecsfantastiques.model.Couleur;
-import com.echecsfantastiques.model.pieces.Pieces;
+import com.echecsfantastiques.model.Pieces;
 
 /**
  * @author francoise.perrin
