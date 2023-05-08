@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.echecsfantastiques.model.pieces.TourTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.echecsfantastiques.model.JeuTest" time="0.001" tests="5" errors="0" skipped="0" failures="5">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -57,5 +57,29 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="63.0"/>
   </properties>
-  <testcase name="testDeplacement" classname="com.echecsfantastiques.model.pieces.TourTest" time="0"/>
+  <testcase name="testMove" classname="com.echecsfantastiques.model.JeuTest" time="0.001">
+    <failure message="Le pion devrait pouvoir se déplacer en (0, 2)" type="java.lang.AssertionError">java.lang.AssertionError: Le pion devrait pouvoir se déplacer en (0, 2)
+	at com.echecsfantastiques.model.JeuTest.testMove(JeuTest.java:31)
+</failure>
+  </testcase>
+  <testcase name="testIsMoveOk" classname="com.echecsfantastiques.model.JeuTest" time="0">
+    <failure message="Le pion devrait pouvoir se déplacer en (0, 2)" type="java.lang.AssertionError">java.lang.AssertionError: Le pion devrait pouvoir se déplacer en (0, 2)
+	at com.echecsfantastiques.model.JeuTest.testIsMoveOk(JeuTest.java:25)
+</failure>
+  </testcase>
+  <testcase name="testIsPieceHere" classname="com.echecsfantastiques.model.JeuTest" time="0">
+    <failure message="Il devrait y avoir une pièce en (0, 1)" type="java.lang.AssertionError">java.lang.AssertionError: Il devrait y avoir une pièce en (0, 1)
+	at com.echecsfantastiques.model.JeuTest.testIsPieceHere(JeuTest.java:19)
+</failure>
+  </testcase>
+  <testcase name="testGetPieceColor" classname="com.echecsfantastiques.model.JeuTest" time="0">
+    <failure message="La pièce en (0, 1) devrait être blanche expected:&lt;BLANC&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: La pièce en (0, 1) devrait être blanche expected:<BLANC> but was:<null>
+	at com.echecsfantastiques.model.JeuTest.testGetPieceColor(JeuTest.java:37)
+]]></failure>
+  </testcase>
+  <testcase name="testGetPieceType" classname="com.echecsfantastiques.model.JeuTest" time="0">
+    <failure message="La pièce en (0, 1) devrait être un pion expected:&lt;Pion&gt; but was:&lt;null&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: La pièce en (0, 1) devrait être un pion expected:<Pion> but was:<null>
+	at com.echecsfantastiques.model.JeuTest.testGetPieceType(JeuTest.java:43)
+]]></failure>
+  </testcase>
 </testsuite>

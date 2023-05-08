@@ -35,6 +35,14 @@ public abstract class AbstractPiece implements Pieces {
         return coord;
     }
 
+    public int getX() {
+        return coord.x;
+    }
+
+    public int getY() {
+        return coord.y;
+    }
+
     public void move(Coord coord) {
         this.coord = coord;
     }
