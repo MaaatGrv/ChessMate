@@ -51,6 +51,12 @@ public class ChessPiecesFactory {
 		return pieces;
 	}
 
+	public static void displayPieces(List<Pieces> pieces) {
+		for (Pieces piece : pieces) {
+			System.out.println(piece.getClass().getSimpleName() + " - " + piece.getCoord().toString());
+		}
+	}
+
 	/**
 	 * Tests unitaires
 	 * 

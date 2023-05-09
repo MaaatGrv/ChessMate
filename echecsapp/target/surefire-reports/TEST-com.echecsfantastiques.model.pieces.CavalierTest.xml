@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.echecsfantastiques.model.pieces.CavalierTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.echecsfantastiques.model.pieces.CavalierTest" time="0.001" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/target/surefire/surefirebooter10097558644504111601.jar /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/target/surefire 2023-05-08T20-20-52_844-jvmRun1 surefire13646394472797290918tmp surefire_02980583664121618087tmp"/>
+    <property name="sun.java.command" value="/Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/target/surefire/surefirebooter9116215505544156354.jar /Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/target/surefire 2023-05-09T08-49-31_471-jvmRun1 surefire6409708450451879904tmp surefire_07427018062639596591tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/target/test-classes:/Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/target/classes:/Users/mathisgorvien/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/mathisgorvien/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mathisgorvien/.m2/repository/org/openjfx/javafx-controls/17/javafx-controls-17.jar:/Users/mathisgorvien/.m2/repository/org/openjfx/javafx-controls/17/javafx-controls-17-mac-aarch64.jar:/Users/mathisgorvien/.m2/repository/org/openjfx/javafx-graphics/17/javafx-graphics-17.jar:/Users/mathisgorvien/.m2/repository/org/openjfx/javafx-graphics/17/javafx-graphics-17-mac-aarch64.jar:/Users/mathisgorvien/.m2/repository/org/openjfx/javafx-base/17/javafx-base-17.jar:/Users/mathisgorvien/.m2/repository/org/openjfx/javafx-base/17/javafx-base-17-mac-aarch64.jar:/Users/mathisgorvien/.m2/repository/org/openjfx/javafx-swing/17/javafx-swing-17.jar:/Users/mathisgorvien/.m2/repository/org/openjfx/javafx-swing/17/javafx-swing-17-mac-aarch64.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/target/surefire/surefirebooter10097558644504111601.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mathisgorvien/Library/Mobile Documents/com~apple~CloudDocs/4ETI/S8/COO/ChessMateProject/ChessMate/echecsapp/target/surefire/surefirebooter9116215505544156354.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>

@@ -19,4 +19,8 @@ public interface Pieces {
     boolean isMoveOk(int xFinal, int yFinal, boolean isCatchOk, boolean isCastlingPossible);
 
     String toString();
+
+    int getY();
+
+    int getX();
 }

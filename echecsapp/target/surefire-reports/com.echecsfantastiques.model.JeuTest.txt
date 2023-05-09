@@ -1,24 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.echecsfantastiques.model.JeuTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.echecsfantastiques.model.JeuTest
-testMove(com.echecsfantastiques.model.JeuTest)  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.AssertionError: Le pion devrait pouvoir se déplacer en (0, 2)
-	at com.echecsfantastiques.model.JeuTest.testMove(JeuTest.java:31)
-
-testIsMoveOk(com.echecsfantastiques.model.JeuTest)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError: Le pion devrait pouvoir se déplacer en (0, 2)
-	at com.echecsfantastiques.model.JeuTest.testIsMoveOk(JeuTest.java:25)
-
-testIsPieceHere(com.echecsfantastiques.model.JeuTest)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError: Il devrait y avoir une pièce en (0, 1)
-	at com.echecsfantastiques.model.JeuTest.testIsPieceHere(JeuTest.java:19)
-
-testGetPieceColor(com.echecsfantastiques.model.JeuTest)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError: La pièce en (0, 1) devrait être blanche expected:<BLANC> but was:<null>
-	at com.echecsfantastiques.model.JeuTest.testGetPieceColor(JeuTest.java:37)
-
-testGetPieceType(com.echecsfantastiques.model.JeuTest)  Time elapsed: 0 s  <<< FAILURE!
-java.lang.AssertionError: La pièce en (0, 1) devrait être un pion expected:<Pion> but was:<null>
-	at com.echecsfantastiques.model.JeuTest.testGetPieceType(JeuTest.java:43)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.echecsfantastiques.model.JeuTest

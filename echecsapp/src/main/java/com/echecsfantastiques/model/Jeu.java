@@ -21,9 +21,11 @@ public class Jeu {
         return sb.toString();
     }
 
-    private Pieces findPiece(int x, int y) {
+    public Pieces findPiece(int x, int y) {
+        System.out.println("Recherche de la pièce aux coordonnées (" + x + ", " + y + ")");
         for (Pieces piece : pieces) {
             if (piece.getCoord().x == x && piece.getCoord().y == y) {
+                System.out.println("Pièce trouvée : " + piece);
                 return piece;
             }
         }
@@ -84,5 +86,9 @@ public class Jeu {
 
         System.out.println("Pièces noires:");
         System.out.println(jeuNoir.toString());
+    }
+
+    public List<Pieces> getPieces() {
+        return pieces;
     }
 }
