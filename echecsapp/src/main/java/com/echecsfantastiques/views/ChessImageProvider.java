@@ -43,8 +43,7 @@ public class ChessImageProvider {
 		ret = null;
 		key = pieceType + pieceCouleur.name();
 		value = mapImage.get(key);
-		File g = new File("");
-		ret = g.getAbsolutePath() + "\\images\\" + value;
+		ret = "echecsapp/src/main/ressources/images/" + value;
 		return ret;
 	}
 

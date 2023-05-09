@@ -28,4 +28,6 @@ public interface ChessGameControlers {
 	 */
 	public boolean isPlayerOK(Coord initCoord);
 
+	public boolean isMoveOk(Coord initCoord, Coord finalCoord);
+
 }
