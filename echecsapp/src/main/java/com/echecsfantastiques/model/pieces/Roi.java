@@ -11,7 +11,7 @@ public class Roi extends AbstractPiece {
     }
 
     @Override
-    public boolean isMoveOk(int xFinal, int yFinal, boolean isCatchOk, boolean isCastlingPossible) {
+    public boolean isMoveOk(int xFinal, int yFinal) {
         int xInit = getCoord().x;
         int yInit = getCoord().y;
         int dx = Math.abs(xFinal - xInit);

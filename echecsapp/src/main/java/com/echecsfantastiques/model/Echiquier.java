@@ -33,29 +33,35 @@ public class Echiquier implements BoardGames {
     }
 
     public boolean isMoveOk(int xInit, int yInit, int xFinal, int yFinal) {
-        if (!jeuCourant.isPieceHere(xInit, yInit)) {
-            setMessage("Aucune pièce du joueur courant à cette position");
-            return false;
+        boolean res = true;
+
+        // Bonne exemple SRP
+        if (!(0 <= xFinal && xFinal <= 7 && 0 <= yFinal && yFinal <= 7) || // Si position pas dans le plateau
+                (this.jeuCourant.findPiece(xFinal, yFinal) != null) || // ou une pièce est déjà sur la position finale
+                (xFinal == xInit && yFinal == yInit) // Si la position finale est la même qu'initialement
+        ) {
+            res = false;
         }
 
-        Couleur pieceColor = jeuCourant.getPieceColor(xInit, yInit);
-        if (pieceColor != jeuCourant.getCouleur()) {
-            setMessage("La pièce sélectionnée n'appartient pas au joueur courant");
-            return false;
+        // if (this.jeuNonCourant.findPiece(xFinal, yFinal) != null) { // Si il n'y a
+        // pas de pièce du jeu non courant
+        // setMessage("Il y a une pièce du jeu non courant sur la position finale");
+        // res = false;
+
+        // } else {
+        // setMessage("Déplacement impossible1");
+        // res = false;
+        // }
+
+        if ((this.jeuCourant.isMoveOk(xInit, yInit, xFinal, yFinal))) { // Si le mouvement est autorisé par le jeu
+            res = true;
+        } else {
+            setMessage("Mouvement illégal de la pièce");
+            res = false;
         }
 
-        if (jeuCourant.isPieceHere(xFinal, yFinal) || jeuNonCourant.isPieceHere(xFinal, yFinal)) {
-            setMessage("Une pièce se trouve déjà à la position finale");
-            return false;
-        }
+        return res;
 
-        Pieces piece = jeuCourant.findPiece(xInit, yInit);
-        boolean isMoveValid = piece.isMoveOk(xFinal, yFinal, false, false); // Les deux derniers arguments sont pour
-                                                                            // l'instant fixés à false.
-        if (!isMoveValid) {
-            setMessage("Le mouvement n'est pas valide pour cette pièce");
-        }
-        return isMoveValid;
     }
 
     @Override

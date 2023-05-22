@@ -36,13 +36,14 @@ public class Jeu {
         return findPiece(x, y) != null;
     }
 
-    public boolean isMoveOk(int xInit, int yInit, int xFinal, int yFinal) {
-        Pieces piece = findPiece(xInit, yInit);
-        if (piece == null) {
-            return false;
+    protected boolean isMoveOk(int xInit, int yInit, int xFinal, int yFinal) {
+        boolean isMoveOk = false;
+
+        if (isPieceHere(xInit, yInit) && !isPieceHere(xFinal, yFinal)) {
+            isMoveOk = findPiece(xInit, yInit).isMoveOk(xFinal, yFinal);
         }
-        return piece.isMoveOk(xFinal, yFinal, false, false); // Les deux derniers arguments sont pour l'instant fixés à
-                                                             // false.
+
+        return isMoveOk;
     }
 
     public boolean move(int xInit, int yInit, int xFinal, int yFinal) {
@@ -50,7 +51,7 @@ public class Jeu {
         if (piece == null) {
             return false;
         }
-        if (piece.isMoveOk(xFinal, yFinal, false, false)) {
+        if (piece.isMoveOk(xFinal, yFinal)) {
             piece.move(new Coord(xFinal, yFinal)); // Corrigez l'appel à la méthode move().
             return true;
         }

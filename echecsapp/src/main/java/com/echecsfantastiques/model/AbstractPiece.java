@@ -47,7 +47,7 @@ public abstract class AbstractPiece implements Pieces {
         this.coord = coord;
     }
 
-    public abstract boolean isMoveOk(int xFinal, int yFinal, boolean isCatchOk, boolean isCastlingPossible);
+    public abstract boolean isMoveOk(int xFinal, int yFinal);
 
     public String toString() {
         return name + " en " + coord.x + "," + coord.y;

@@ -16,7 +16,7 @@ public interface Pieces {
 
     void move(Coord coord);
 
-    boolean isMoveOk(int xFinal, int yFinal, boolean isCatchOk, boolean isCastlingPossible);
+    boolean isMoveOk(int xFinal, int yFinal);
 
     String toString();
 

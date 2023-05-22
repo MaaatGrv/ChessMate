@@ -10,7 +10,7 @@ public class Tour extends AbstractPiece {
         super("Tour", couleur, coord);
     }
 
-    public boolean isMoveOk(int xFinal, int yFinal, boolean isCatchOk, boolean isCastlingPossible) {
+    public boolean isMoveOk(int xFinal, int yFinal) {
         boolean ret = false;
 
         if (getCoord().x == xFinal || getCoord().y == yFinal) {

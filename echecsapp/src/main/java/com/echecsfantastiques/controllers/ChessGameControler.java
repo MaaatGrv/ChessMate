@@ -47,4 +47,10 @@ public class ChessGameControler extends AbstractChessGameControler {
 
 	}
 
+	@Override
+	public boolean isMoveOk(Coord initCoord, Coord finalCoord) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 }

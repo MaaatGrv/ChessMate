@@ -10,7 +10,7 @@ public class Cavalier extends AbstractPiece {
         super("Cavalier", couleur, coord);
     }
 
-    public boolean isMoveOk(int xFinal, int yFinal, boolean isCatchOk, boolean isCastlingPossible) {
+    public boolean isMoveOk(int xFinal, int yFinal) {
         boolean ret = false;
         int xInit = getCoord().x;
         int yInit = getCoord().y;

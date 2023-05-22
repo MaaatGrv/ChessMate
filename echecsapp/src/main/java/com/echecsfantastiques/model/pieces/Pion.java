@@ -10,7 +10,7 @@ public class Pion extends AbstractPiece {
         super("Pion", couleur, coord);
     }
 
-    public boolean isMoveOk(int xFinal, int yFinal, boolean isCatchOk, boolean isCastlingPossible) {
+    public boolean isMoveOk(int xFinal, int yFinal) {
         int xInit = getCoord().x;
         int yInit = getCoord().y;
 
